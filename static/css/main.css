@@ -16,42 +16,10 @@ main {
     color: rgba(255, 255, 255, 0.9);
 }
 
-.header-text .tag-line {
-    margin: 10px auto;
-    padding: 0 10px;
-    max-width: 430px;
-    color: rgba(255, 255, 255, 0.7);
-    text-align: center;
-    font-weight: 300;
-}
-
-.header-text .sns-links {
-    margin: 20px auto;
-    text-align: center;
-}
-
-.header-text .sns-links a {
-    display: inline-block;
-    margin: 0 2px;
-    width: 30px;
-    height: 30px;
-    border: 1px solid rgba(255, 255, 255, 0.6);
-    border-radius: 15px;
-    color: rgba(255, 255, 255, 0.6);
-    text-decoration: none;
-    font-size: 20px;
-    line-height: 30px;
-    transition: color,border-color 0.1s linear;
-}
-
-.header-text .sns-links a:hover {
-    border-color: rgba(255, 255, 255, 1.0);
-    color: rgba(255, 255, 255, 1.0);
-}
-
 .header-text h1 {
     margin: 0 auto;
     padding-top: 30px;
+    padding-bottom: 30px;
     text-align: center;
     font-weight: 200;
 }
@@ -107,14 +75,13 @@ a.btn-back {
     display: inline-block;
     width: 24px;
     height: 24px;
-    border: 1px solid rgba(0, 0, 0, 0.4);
-    border-radius: 12px;
     color: rgba(0, 0, 0, 0.4);
     vertical-align: top;
     text-align: center;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 18px;
     transition: color,border-color 0.1s linear;
+
 }
 
 .global-footer .sns-links a i {
@@ -122,12 +89,16 @@ a.btn-back {
 }
 
 .global-footer .sns-links a:hover {
-    border: 1px solid rgba(0, 0, 0, 0.8);
     color: rgba(0, 0, 0, 0.7);
 }
 
 /* Article */
+.article-list {
+  padding: 1em;
+  padding-top: 2em;
+}
 
+/* FIXME: no longer need this */
 .article-list h2 a {
     text-decoration: none;
     transition: color 0.1s linear;
@@ -240,4 +211,3 @@ article img {
     max-width: 100%;
     height: auto;
 }
-

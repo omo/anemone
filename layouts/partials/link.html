@@ -19,4 +19,9 @@
     <i class="fa fa-linkedin"></i>
   </a>
   {{ end }}
+  {{ with .RSSLink }}
+  <a href="{{ . }}">
+    <i class="fa fa-rss-square"></i>
+  </a>
+  {{ end }}
 </div>
