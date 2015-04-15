@@ -211,6 +211,14 @@ h1.text-primary {
     font-size: x-large;
 }
 
+h2 {
+    font-size: x-large;
+}
+
+h3 {
+    font-size: large;
+}
+
 article img {
     max-width: 100%;
     height: auto;
