@@ -112,6 +112,10 @@ a.btn-back {
     color: rgba(0, 0, 0, 0.4);
 }
 
+.post-date a {
+    padding-right: 0.5em;
+}
+
 .post-tag a {
     padding: 0 10px;
     border: 1px solid rgba(0, 0, 0, 0.3);
@@ -222,4 +226,10 @@ h3 {
 article img {
     max-width: 100%;
     height: auto;
+}
+
+/* overrides bootstrap */
+code {
+    color: #336;
+    background-color: #eee;
 }
