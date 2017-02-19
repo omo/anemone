@@ -163,7 +163,7 @@ article p {
     line-height: 180%;
 }
 
-article p a {
+article section a, article section a:link, article section a:visited {
     color: #226;
     text-decoration: none;
 }
