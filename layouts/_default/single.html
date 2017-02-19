@@ -4,11 +4,11 @@
   <header>
     <h1 class="text-primary">{{ .Title }}</h1>
     <div class="post-meta clearfix">
-      <div class="pull-right">
         {{ range .Params.tags }}
-        <span class="post-tag small"><a href="{{ $baseurl }}/tags/{{ . | urlize }}">#{{ . }}</a></span>
+        <div class="post-tags">
+          <span class="post-tag small"><a href="{{ $baseurl }}/tags/{{ . | urlize }}">#{{ . }}</a></span>
+        </div>
         {{ end }}
-      </div>
     </div>
   </header>
   <section>

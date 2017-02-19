@@ -13,7 +13,7 @@ main {
 
 .global-header {
     position: relative;
-    background-color: #222;
+    background-color: #226;
 }
 
 .header-text {
@@ -24,27 +24,28 @@ main {
     margin-right: auto;
 
     height: 100%;
-    color: #999;
+    color: #ddf;
 }
 
 .header-text h1 {
 }
 
 .header-text h1 a {
-    color: #ccc;
+    color: #ddf;
     text-decoration: none;
 }
 
 .global-footer {
-    margin-top: 10px;
-    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0em 1em 0em 1em;
     max-width: 750px;
     height: 100px;
     color: rgba(0, 0, 0, 0.4);
 }
 
 .global-footer .sns-links {
-    float: right;
+    text-align: right;
 }
 
 .global-footer .sns-links a {
@@ -83,17 +84,32 @@ main {
 
 .post-meta {
     margin: 5px 0;
+    position: relative;
+}
+
+.post-title {
+
 }
 
 .post-date {
-    color: rgba(0, 0, 0, 0.4);
+    display: inline-block;
+    color: #888;
+    font-size: 14pt;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.post-tags {
+    text-align: right;
+}
+
+.post-tag {
+    font-size: 14pt;
 }
 
 .post-tag a {
     padding: 0 10px;
     color: rgba(0, 0, 0, 0.3);
     text-decoration: none;
-    transition: color,border-color,background-color 0.1s linear;
 }
 
 .post-tag a:hover {
