@@ -5,7 +5,7 @@ html, body {
 
 main {
     font-family: 'Merriweather', serif;
-    padding: 0em 1em 0em 1em;
+    padding: 0em 2em 0em 2em;
     max-width: 750px;
     margin-left: auto;
     margin-right: auto;
@@ -156,12 +156,19 @@ article img {
 }
 
 article {
-    font-size: 16pt;
+    font-size: 14pt;
 }
 
 article p {
     line-height: 180%;
 }
+
+@media screen and (max-width: 640px) {
+  article p {
+    font-size: 12pt;
+  }
+}
+
 
 article section a, article section a:link, article section a:visited {
     color: #226;
