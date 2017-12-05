@@ -1,7 +1,12 @@
 {{ partial "header.html" . }}
 <div class="article-list">
-  {{ range $index, $page := .Site.Pages }}
-  {{ .Render "li" }}
-  {{ end }}
+  {{ range $index, $page := .Site.Pages.GroupByDate "January 2006" }}
+    <div class="post-month">{{ .Key }}</div>
+    <div class="posts-monthly-list">
+      {{   range .Pages }}
+  {{     .Render "li-in-month" }}
+  {{   end }}
+    </div>
+{{ end }}
 </div>
 {{ partial "footer.html" . }}
