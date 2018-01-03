@@ -110,7 +110,7 @@ main {
 .post-date {
     display: inline-block;
     color: #888;
-    font-size: 14pt;
+    font-size: 12pt;
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -119,7 +119,7 @@ main {
 }
 
 .post-tag {
-    font-size: 14pt;
+    font-size: 12pt;
 }
 
 .post-tag a {
