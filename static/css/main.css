@@ -93,7 +93,7 @@ main {
 }
 
 .post-title-in-month::before {
-    content: "\204D";
+    content: "/ ";
     padding-right: 0.1em;
 }
 
