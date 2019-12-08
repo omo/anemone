@@ -9,8 +9,8 @@
     <i class="fa fa-github"></i>
   </a>
   {{ end }}
-  {{ with .RSSLink }}
-  <a href="{{ . }}">
+  {{ with .OutputFormats.Get "RSS" }}
+  <a href="{{ .RelPermalink }}">
     <i class="fa fa-rss-square"></i>
   </a>
   {{ end }}
