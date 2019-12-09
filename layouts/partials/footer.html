@@ -2,9 +2,9 @@
   <footer class="container global-footer">
     {{ partial "link.html" . }}
   </footer>
-  <script src="{{ .Site.BaseURL }}js/highlight.pack.js"></script>
-  <script>
-    hljs.initHighlightingOnLoad();
-  </script>
+  <script id="highlightjs" 
+          src="{{ .Site.BaseURL }}js/highlight.pack.js"
+          onload="hljs.initHighlightingOnLoad();"
+          async></script>
 </body>
 </html>
