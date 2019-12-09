@@ -1,6 +1,11 @@
 {{ partial "header.html" . }}
 {{ $baseurl := .Site.BaseURL }}
+
+{{ if in .Params.tags "fragments" }}
+<article class='category-fragments'>
+  {{ else }}
 <article>
+  {{ end }}
   <header>
     <h1 class="text-primary">{{ .Title }}</h1>
     <div class="post-meta clearfix">

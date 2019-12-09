@@ -175,13 +175,46 @@ article {
     font-size: 14pt;
 }
 
-article p {
+article ul {
+    padding-inline-start: 1em;
+}
+
+article.category-fragments {
+    font-size: 12pt;
+}
+
+article.category-fragments ul {
+    padding-inline-start: 0px;
+    list-style: none;
+}
+  
+article.category-fragments ul li:before {
+    content: "\0203A  ";
+}
+  
+article.category-fragments > ul > li {
+    padding: 0em 0em 0.5em 0em;
+}
+  
+article.category-fragments > ul > li:before {
+    content: "/ ";
+}
+
+article p, article ul {
     line-height: 180%;
 }
 
 @media screen and (max-width: 640px) {
-  article p {
-    font-size: 12pt;
+  article p, article ul {
+    font-size: 11pt;
+  }
+
+  article.category-fragments {
+    font-size: 10pt;
+  }
+
+  main {
+    padding: 0em 1.5em 0em 1.5em;
   }
 }
 
